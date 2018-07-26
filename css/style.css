@@ -65,3 +65,10 @@ a {
 .nav>li>a:focus, .nav>li>a:hover,.active > a {
     background-color: rgba(0, 38, 107, 0.15);
 }
+
+
+/* style for popover */
+
+.popovertests {
+    margin-bottom: 30px;
+}

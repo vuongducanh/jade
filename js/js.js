@@ -30,3 +30,6 @@ $('.js-heading').click(function(e) {
   }
 });
 
+$('#popoverData').popover();
+$('#popoverOption').popover({ trigger: "hover" });
+
