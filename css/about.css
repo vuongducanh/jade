@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.item {
+    display: flex;
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 6px 6px 13px -12px;
+    margin-top: 30px;
+}
+
+.header {
+    margin-left: 35px;
+}
+
+.project_new {
+    margin-top: 50px;
+}
+
+.header__title {
+    color: #2c4c85;
+    font-weight: 600;
+}
+
+.news {
+    margin-top: 40px;
+}
+
+.header__new__title {
+    display: inline-block;
+    color: #2c4c85;
+    border-left: 4px solid #ff9f00;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.read_all {
+    float: right;
+    position: relative;
+    top: 35px;
+}
+
+.read_all {
+    color: #2c4c85;
+}
+.news_left {
+    background-image: url("../images/images-food.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 60%;
+}
+.infomation {
+    padding: 20px;
+}
