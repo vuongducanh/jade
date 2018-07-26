@@ -62,12 +62,6 @@ a {
     margin-bottom: 3px;
 }
 
-
-.nav-tabs > li.active > a {
-    border: none;
-    background-color: rgba(0, 38, 107, 0.15);
-}
-
-.nav>li>a:focus, .nav>li>a:hover {
+.nav>li>a:focus, .nav>li>a:hover,.active > a {
     background-color: rgba(0, 38, 107, 0.15);
 }
