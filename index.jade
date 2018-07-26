@@ -3,6 +3,7 @@ html(lang="en")
     head
         title jade
         link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
         link(rel="stylesheet", href="css/slick-theme.css")
         link(rel="stylesheet", href="css/slick.css")
         link(rel="stylesheet", href="css/style.css")
@@ -10,28 +11,80 @@ html(lang="en")
         block content
         .container-full-width
            .slider
-                div
                     img(src="images/masthead1.jpg", alt="slicks")
-                div
                     img(src="images/masthead2.jpg", alt="slicks")
-                div
                     img(src="images/masthead3.jpg", alt="slicks")
-                div
                     img(src="images/masthead3.jpg", alt="slicks")
-                div
                     img(src="images/masthead2.jpg", alt="slicks")
 
-
-
-
-
-
-
-
-
-
-
+            .container
+                .news-box-accordion
+                    .news-box-accordion__content-box
+                        .news-box-accordion__field
+                            h2.news-box-accordion__heading.js-heading.
+                                Collapsible Group Item #1
+                            ul.news-box-accordion__items.js-subitems
+                                li.news-box-accordion__text.
+                                    cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                        .news-box-accordion__field
+                            h2.news-box-accordion__heading.js-heading.
+                                Collapsible Group Item #1
+                            ul.news-box-accordion__items.js-subitems
+                                li.news-box-accordion__text.
+                                    cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                        .news-box-accordion__field
+                            h2.news-box-accordion__heading.js-heading.
+                                Collapsible Group Item #1
+                            ul.news-box-accordion__items.js-subitems
+                                li.news-box-accordion__text.
+                                    cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                .tab
+                    .row
+                        .col-md-12
+                            .row
+                                .col-md-3.col-sm-4
+                                    ul.nav
+                                        li.active
+                                            a(href="#item1",data-toggle="pill") item1
+                                        li
+                                            a(href="#item2",data-toggle="pill") item2
+                                        li
+                                            a(href="#item3",data-toggle="pill") item3
+                                        li
+                                            a(href="#item4",data-toggle="pill") item4
+                                .col-md-9.col-sm-8
+                                    .tab-content
+                                        #item1.tab-pane.fade.in.active
+                                            .news-box-accordion
+                                                .news-box-accordion__content-box
+                                                    .news-box-accordion__field
+                                                        h2.news-box-accordion__heading.js-heading.
+                                                            Collapsible Group Item #1
+                                                        ul.news-box-accordion__items.js-subitems
+                                                            li.news-box-accordion__text.
+                                                                cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                                                    .news-box-accordion__field
+                                                        h2.news-box-accordion__heading.js-heading.
+                                                            Collapsible Group Item #1
+                                                        ul.news-box-accordion__items.js-subitems
+                                                            li.news-box-accordion__text.
+                                                                cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                                                    .news-box-accordion__field
+                                                        h2.news-box-accordion__heading.js-heading.
+                                                            Collapsible Group Item #1
+                                                        ul.news-box-accordion__items.js-subitems
+                                                            li.news-box-accordion__text.
+                                                                cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                                        #item2.tab-pane.fade.
+                                            content item2122222222222222222222222222
+                                        #item3.tab-pane.fade.
+                                            content item3333333333333333333333333
+                                        #item4.tab-pane.fade.
+                                            content item44444444444444444444444444
         block scripts
         script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa",crossorigin="anonymous")
+        script(src='js/chart.min.js')
         script(src='js/slick.js')
         script(src='js/js.js')
+

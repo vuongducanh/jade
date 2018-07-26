@@ -9,3 +9,65 @@
     content: '.';
     font-size: 100px;
 }
+
+.show {
+    display: block;
+}
+
+.news-box-accordion__items {
+    display: none;
+}
+
+.news-box-accordion__field {
+    position: relative;
+}
+
+
+
+.news-box-accordion__heading:hover {
+    cursor: pointer;
+}
+
+.news-box-accordion__heading {
+    background-color: pink;
+    font-size: 16px;
+    padding: 12px;
+    color: #1b1bb5;
+    margin-top: 0;
+}
+
+.news-box-accordion__heading::after {
+    content: url(../images/accordion-down.png);
+    right: 30px;
+    position: absolute;
+}
+
+.rotate-icon:after {
+    content: url(../images/accordion-up.png);
+    right: 30px;
+    position: absolute;
+}
+
+.tab {
+  margin: 100px 0;
+}
+
+ul li {
+    list-style-type: none;
+    display: block;
+}
+
+a {
+    background-color: rgba(0, 38, 107, 0.05);
+    margin-bottom: 3px;
+}
+
+
+.nav-tabs > li.active > a {
+    border: none;
+    background-color: rgba(0, 38, 107, 0.15);
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: rgba(0, 38, 107, 0.15);
+}
